@@ -1,0 +1,66 @@
+a {
+  text-decoration: none;
+  color: rgb(244, 218, 193);
+  padding: 0.5em;
+  font-size: 1.2em;
+}
+
+.grid__one-two {
+  display: grid;
+  grid-template-columns: 15% 1fr 2fr 15%;
+  grid-template-rows: 10% 1fr 1fr 10%;
+}
+
+.full-height {
+  height: 100vh;
+}
+
+.page__header {
+  color: rgb(1, 2, 14);
+}
+
+.header__wallpaper {
+  grid-column: 1/5;
+  grid-row: 1/4;
+  z-index: -1;
+}
+.header__wallpaper img {
+  width: 100%;
+  height: 100%;
+}
+
+.brand__navbar {
+  border: 1px solid rgb(16, 4, 108);
+  padding: 1em 2em;
+}
+
+.header__navbar {
+  grid-column: 1/5;
+  grid-row: 1;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+.header__navbar ul {
+  display: flex;
+}
+
+.header__heading--main {
+  grid-column: 2;
+  grid-row: 2;
+  padding: 0.25em 0;
+  align-self: end;
+  font-size: 2em;
+}
+
+.header__heading--second {
+  grid-column: 2;
+  grid-row: 3;
+  font-size: 1.2em;
+  align-self: start;
+}
+
+body {
+  font-family: "Heebo", sans-serif;
+  font-size: 16px;
+}/*# sourceMappingURL=style.css.map */
